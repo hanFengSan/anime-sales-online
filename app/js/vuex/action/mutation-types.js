@@ -1,0 +1,4 @@
+export const TYPE = {
+    SET_LANG: 'SET_LANG',
+    SET_SEARCH_FILTER: 'SET_SEARCH_FILTER'
+}
