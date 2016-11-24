@@ -26,13 +26,13 @@
 </template>
 
 <script>
-import { getLang } from '../vuex/getter/getters'
+import { getLang } from '~vuex/getter/getters'
 
 export default {
     data() {
         return {
                searchImg: {
-                backgroundImage: 'url(' + require('image!../../assets/img/img-res.png')  + ')',
+                backgroundImage: 'url(' + require('image!~img/img-res.png')  + ')',
                 backgroundRepeat: 'no repeat',
                 backgroundPosition: '0px 0px',
                 width: '28px',
@@ -50,8 +50,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    @import "../../css/util";
-    @import "../../css/color";
+    @import "~style/util";
+    @import "~style/color";
+
     .search-container {
         background: $search-container;
     }

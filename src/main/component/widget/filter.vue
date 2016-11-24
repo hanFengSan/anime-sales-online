@@ -14,42 +14,37 @@
                 </div>
             </template>
         </div>
-</card>
+    </card>
 </template>
 
 <script>
     import Vue from 'vue'
-    import {
-        getLang,
-        getSearchFilter
-    } from '../vuex/getter/getters'
-    import {
-        setSearchFilter
-    } from '../vuex/action/actions'
-    import card from './card.vue'
+    import { getLang, getSearchFilter } from '~vuex/getter/getters'
+    import { setSearchFilter } from '~vuex/action/actions'
+    import card from '~widget/card.vue'
 
     export default {
         data: function() {
             return {        
                 query: '',
                 list: [
-                        { msg: 'Bruce Lee' },
-                        { msg: 'Jackie Chan' },
-                        { msg: 'Chuck Norris' },
-                        { msg: 'Jet Li' },
-                        { msg: 'Kung Fury' }
-                    ]
-                }
+                { msg: 'Bruce Lee' },
+                { msg: 'Jackie Chan' },
+                { msg: 'Chuck Norris' },
+                { msg: 'Jet Li' },
+                { msg: 'Kung Fury' }
+                ]
+            }
         },
         methods: {
             select (pIndex, index) {
                 switch (pIndex) {
                     case 0:
-                        this.setSearchFilter('lang', index);
-                        break;
+                    this.setSearchFilter('lang', index);
+                    break;
                     case 1:
-                        this.setSearchFilter('year', index);
-                        break;
+                    this.setSearchFilter('year', index);
+                    break;
                 }
             }
 
@@ -85,8 +80,8 @@
 </script>
 
 <style lang="sass" scoped>
-    @import "../../css/color";
-    @import "../../css/util";
+    @import "~style/color";
+    @import "~style/util";
     .filter {
         .filter-name {
             padding: 10px 0 5px 10px;

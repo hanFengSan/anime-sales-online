@@ -46,8 +46,8 @@
 <script>
 import { vueStrap } from 'vue-strap'
 import boot from 'bootstrap'
-import { getLang } from '../vuex/getter/getters'
-import { setLang } from '../vuex/action/actions'
+import { getLang } from '~vuex/getter/getters'
+import { setLang } from '~vuex/action/actions'
 
 
 export default {
@@ -72,8 +72,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  @import "../../css/color";
-  @import "../../css/util";
+  @import "~style/color";
+  @import "~style/util";
   .nav-icon {
     padding-top: 15px;
     padding-bottom: 15px;

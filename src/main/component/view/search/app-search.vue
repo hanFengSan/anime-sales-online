@@ -9,12 +9,12 @@
 </template>
 
 <script>
-import '../../css/bootstrap.min.css'
-import NavHeader from './nav-header.vue'
-import SearchBanner from './search-banner.vue'
-import Filter from './filter.vue'
-import SalesTable from './sales-table.vue'
-import SubjectResult from './subject-result.vue'
+import '~src/style/bootstrap.min.css'
+import NavHeader from '~widget/nav-header.vue'
+import SearchBanner from './sub-component/search-banner.vue'
+import Filter from '~widget/filter.vue'
+import SalesTable from './sub-component/sales-table.vue'
+import SubjectResult from './sub-component/subject-result.vue'
 
 export default {
     data () {

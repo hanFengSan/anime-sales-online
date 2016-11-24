@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import { getLang } from '../vuex/getter/getters'
+    import { getLang } from '~vuex/getter/getters'
 
     export default {
         vuex: {
@@ -17,8 +17,8 @@
 </script>
 
 <style lang="sass" scoped>
-    @import "../../css/color";
-    @import "../../css/util";
+    @import "~style/color";
+    @import "~style/util";
     footer {
         position: absolute;
         left: 0;

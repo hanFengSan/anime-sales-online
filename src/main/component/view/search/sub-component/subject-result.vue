@@ -19,10 +19,10 @@
 </template>
 
 <script>
-    import card from './card.vue'
+    import card from '~widget/card.vue'
     import {
         getLang
-    } from '../vuex/getter/getters'
+    } from '~vuex/getter/getters'
 
     export default {
         data() {
@@ -37,8 +37,8 @@
 </script>
 
 <style lang="sass" scoped>
-    @import "../../css/color";
-    @import "../../css/util";
+    @import "~style/color";
+    @import "~style/util";
     label {
         margin-bottom: 0;
     }

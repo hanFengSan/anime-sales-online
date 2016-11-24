@@ -11,17 +11,17 @@
 </template>
 
 <script>
-import '../../css/bootstrap.min.css'
-import NavHeader from './nav-header.vue'
-import Banner from './banner.vue'
-import Search from './search-input.vue'
-import AppFooter from './footer.vue'
+import '~src/style/bootstrap.min.css'
+import NavHeader from '~widget/nav-header.vue'
+import Banner from './sub-component/banner.vue'
+import Search from './sub-component/search-input.vue'
+import AppFooter from '~widget/footer.vue'
 
 export default {
     data () {
         return {
             bgObject: {
-                background : 'url(' + require('image!../../assets/img/bg.jpg') + ') 50% 50% no-repeat',
+                background : 'url(' + require('image!~img/bg.jpg') + ') 50% 50% no-repeat',
                 display: 'block',
                 height: '100%',
                 backgroundSize: 'cover',

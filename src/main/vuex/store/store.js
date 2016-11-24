@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import { TYPE } from '../action/mutation-types'
-import stringCN from '../../../value/string-cn.json'
-import stringEN from '../../../value/string-en.json'
-import stringJP from '../../../value/string-jp.json'
+import stringCN from '../../../assets/value/string-cn.json'
+import stringEN from '../../../assets/value/string-en.json'
+import stringJP from '../../../assets/value/string-jp.json'
 
 Vue.use(Vuex)
 

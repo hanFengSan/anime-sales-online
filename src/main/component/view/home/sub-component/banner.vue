@@ -6,7 +6,7 @@
 export default {
     data () {
         return {
-            bannerUrl: require('image!../../assets/img/banner.jpg')
+            bannerUrl: require('image!~img/banner.jpg')
         }
     },
     components: {}
@@ -14,6 +14,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    @import "../../css/color";
-    @import "../../css/util";
+    @import "~style/util";
+    @import "~style/color";
 </style>

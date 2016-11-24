@@ -12,8 +12,8 @@
 </script>
 
 <style lang="sass" scoped>
-    @import "../../css/color";
-    @import "../../css/util";
+    @import "~style/color";
+    @import "~style/util";
 
     .card {
         background: $card;

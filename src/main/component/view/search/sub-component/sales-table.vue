@@ -25,8 +25,8 @@
 </template>
 
 <script>
-    import card from './card.vue'
-    import { getLang } from '../vuex/getter/getters'
+    import card from '~widget/card.vue'
+    import { getLang } from '~vuex/getter/getters'
  
     export default {
         data() {
